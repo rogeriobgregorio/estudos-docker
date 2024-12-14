@@ -29,6 +29,6 @@ Este repositório contém as anotações e práticas realizadas durante o meu es
 
 
 ## Material de Apoio
--- **[Roadmap Docker](roadmap/docker-roadmap.pdf)**
--- **[Descomplicando o Docker](https://livro.descomplicandodocker.com.br/)**
--- **[Contêineres com Docker do Desenvolvimento à Produção](https://github.com/free-educa/books/blob/main/books/Containers%20com%20Docker%20do%20Desenvolvimento%20a%20Producao.pdf)**
+- **[Roadmap Docker](roadmap/docker-roadmap.pdf)**
+- **[Descomplicando o Docker](https://livro.descomplicandodocker.com.br/)**
+- **[Contêineres com Docker do Desenvolvimento à Produção](https://github.com/free-educa/books/blob/main/books/Containers%20com%20Docker%20do%20Desenvolvimento%20a%20Producao.pdf)**
