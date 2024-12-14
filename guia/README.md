@@ -1,6 +1,6 @@
 # Docker: Guia de Aprendizado
 
-Este README tem como objetivo detalhar o processo de aprendizado sobre o **Docker**, cobrindo desde os conceitos fundamentais até os comandos e práticas essenciais no uso dessa plataforma para criação e gerenciamento de containers.
+Este repositório tem como objetivo detalhar o processo de aprendizado sobre o **Docker**, cobrindo desde os conceitos fundamentais até os comandos e práticas essenciais no uso dessa plataforma para criação e gerenciamento de containers.
 
 ---
 

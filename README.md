@@ -3,7 +3,7 @@
 Este repositório contém as anotações e práticas realizadas durante o meu estudo de **Docker** na plataforma de cursos da **Full Cycle**. Aqui, documentei os principais conceitos, comandos e exemplos que explorei para entender e aplicar as funcionalidades dessa plataforma de containers.
 
 ## Comece aqui
-**[Guia de Aprendizagem](guia/README.md)**
+**[Introdução](guia/README.md)**
 
 ## Índice
 1. **[Hello World com Docker](hello-world/README.md)**  
@@ -26,3 +26,9 @@ Este repositório contém as anotações e práticas realizadas durante o meu es
 
 7. **[Trabalhando com Volumes](volumes/README.md)**  
    Como criar e utilizar volumes Docker para persistir dados de maneira eficiente, independente do ciclo de vida dos containers.
+
+
+## Material de Apoio
+-- **[Roadmap Docker](roadmap/docker-roadmap.pdf)**
+-- **[Descomplicando o Docker](https://livro.descomplicandodocker.com.br/)**
+-- **[Contêineres com Docker do Desenvolvimento à Produção](https://github.com/free-educa/books/blob/main/books/Containers%20com%20Docker%20do%20Desenvolvimento%20a%20Producao.pdf)**
