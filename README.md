@@ -27,7 +27,7 @@ Este repositório contém as anotações e práticas realizadas durante o meu es
 7. **[Trabalhando com Volumes](volumes/README.md)**  
    Como criar e utilizar volumes Docker para persistir dados de maneira eficiente, independente do ciclo de vida dos containers.
 
-8. **[Entendendo imagens e DockerHub](imagens/README.md)**
+8. **[Entendendo imagens e DockerHub](imagens/README.md)**  
    Explicação sobre o DockerHub, como baixar, listar e remover imagens, e o uso de tags para versões específicas.
 
 ## Material de Apoio
