@@ -33,7 +33,7 @@ Este repositório contém as anotações e práticas realizadas durante o meu es
 9. **[Criando a primeira imagem com Dockerfile](dockerfile/README.md)**  
    Instruções para criar uma imagem personalizada com Dockerfile, incluindo a instalação do Vim em um contêiner Nginx.
 
-10. **[Avançando com Dockerfile](dockerfile-avancado/README.md)**
+10. **[Avançando com Dockerfile](dockerfile-avancado/README.md)**  
    Criando uma imagem Docker personalizada com diretório de trabalho, instalação de pacotes e cópia de arquivos.
 
 11. **[ENTRYPOINT vs CMD](entrypoint-vs-cmd/README.md)**  
