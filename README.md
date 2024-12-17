@@ -36,6 +36,9 @@ Este repositório contém as anotações e práticas realizadas durante o meu es
 10. **[Avançando com Dockerfile](dockerfile-avancado/README.md)**
    Criando uma imagem Docker personalizada com diretório de trabalho, instalação de pacotes e cópia de arquivos.
 
+11. **[ENTRYPOINT vs CMD](dockerfile/README.md)**
+   Diferença entre ENTRYPOINT e CMD no Dockerfile, mostrando como cada um define o comportamento de execução de comandos no contêiner.
+
 ## Material de Apoio
 - **[Roadmap Docker](roadmap/docker-roadmap.pdf)**
 - **[Descomplicando o Docker](https://livro.descomplicandodocker.com.br/)**
