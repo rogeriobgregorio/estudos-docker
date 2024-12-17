@@ -31,7 +31,6 @@ Este repositório contém as anotações e práticas realizadas durante o meu es
    Explicação sobre o DockerHub, como baixar, listar e remover imagens, e o uso de tags para versões específicas.
 
 9. **[Criando a primeira imagem com Dockerfile](dockerfile/README.md)**  
-**Criando a Primeira Imagem com Dockerfile**  
    Instruções para criar uma imagem personalizada com Dockerfile, incluindo a instalação do Vim em um contêiner Nginx.
 
 
