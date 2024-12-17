@@ -39,6 +39,9 @@ Este repositório contém as anotações e práticas realizadas durante o meu es
 11. **[ENTRYPOINT vs CMD](entrypoint-vs-cmd/README.md)**  
    Diferença entre ENTRYPOINT e CMD no Dockerfile, mostrando como cada um define o comportamento de execução de comandos no contêiner.
 
+12. **[Docker ENTRYPOINT exec](exec/README.md)**  
+   Como visualizar e substituir o ENTRYPOINT e CMD de uma imagem, usando exec "$@" e o shell bash.
+
 ## Material de Apoio
 - **[Roadmap Docker](roadmap/docker-roadmap.pdf)**
 - **[Descomplicando o Docker](https://livro.descomplicandodocker.com.br/)**
