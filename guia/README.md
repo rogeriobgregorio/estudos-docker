@@ -128,3 +128,15 @@ Aqui estão alguns dos comandos mais importantes e usados no Docker:
 - **`docker exec`**: Executa comandos dentro de um container.
 - **`docker-compose up`**: Inicia os containers definidos no arquivo `docker-compose.yml`.
 - **`docker-compose down`**: Encerra e remove os containers do Compose.
+- **`docker top`**: permite verificar dados de processamento do container.
+- **`docker stats`**: permite verificar dos de processamento do docker.
+- **`-i (ou --interactive)`**: mantém a entrada padrão (stdin) aberta, permitindo que você interaja com o contêiner.
+- **`-t (ou --tty)`**: aloca um terminal pseudo-TTY, que emula um terminal interativo para uma melhor experiência de uso.
+- **`--rm`**: remove automaticamente o container após ser interrompido ou fechado.
+- **`-p`**: mapeia portas entre o contêiner e o host.
+- **`-d`**: roda o contêiner de forma que o terminal não fique preso à execução do contêiner.
+- **`-q`**: mostra apenas o id do container.
+- **`--name`**: usando para nomear um container.
+- **`exec`**: executa um comando dentro do container em execução.
+- **`-v`**: usado para mapear volumes entre o host e o container.
+- **`cp`**: permite copiar um arquivo do pc para o conteiner ou do conteiner para o pc.
