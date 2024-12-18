@@ -45,7 +45,7 @@ Este repositório contém as anotações e práticas realizadas durante o meu es
 13. **[Publicando imagem no DockerHub](topicos/dockerhub-publicacao/README.md)**  
    Como criar, construir e enviar uma imagem para o DockerHub.
 
-14. **[Passo a passo: dockerizando um projeto](passo-a-passo/README.md)**
+14. **[Passo a passo: dockerizando um projeto](passo-a-passo/README.md)**  
    Colocando em prática todo o aprendizado visto até aqui em uma aplicação real.
 
 ## Material de Apoio
