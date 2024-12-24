@@ -61,8 +61,33 @@ O **OverlayFS** é um tipo de sistema de arquivos utilizado pelo Docker para com
 
 ---
 
-## 12. O que são volumes?
-**Volumes** são mecanismos de persistência de dados em Docker. Diferente dos dados armazenados dentro de um container, que são efêmeros, os volumes permanecem disponíveis mesmo após a remoção do container. Eles são úteis para armazenar dados que precisam ser mantidos, como bancos de dados ou arquivos de configuração.
+## 12. O que são volumes?  
+**Volumes** são mecanismos de persistência de dados no Docker. Diferente dos dados armazenados diretamente no sistema de arquivos de um container, que são efêmeros (perdem-se ao remover o container), os volumes permitem que os dados sejam persistidos, tornando-os disponíveis mesmo após a remoção ou reinicialização do container.  
+
+Existem três principais tipos de volumes no Docker, com diferenças no modo como são gerenciados e armazenados:
+
+1. **Volumes (volumes gerenciados):**  
+   - São totalmente gerenciados pelo Docker e armazenados em um local padrão no host, como `/var/lib/docker/volumes/`.  
+   - Não dependem da estrutura de diretórios do host, o que os torna portáveis e fáceis de gerenciar.  
+   - Exemplos de uso: armazenamento de bancos de dados ou arquivos que precisam de isolamento e persistência confiável.  
+
+2. **Bind Mounts:**  
+   - Permitem que você vincule diretamente um diretório específico do sistema de arquivos do host a um diretório no container.  
+   - Diferente dos volumes, os bind mounts dependem de caminhos absolutos no host.  
+   - Oferecem mais flexibilidade, mas podem ser mais propensos a problemas de segurança ou configuração devido ao acesso direto ao host.  
+   - Exemplos de uso: desenvolvimento local, onde você precisa compartilhar código entre o host e o container.  
+
+3. **tmpfs Mounts:**  
+   - Armazenam dados apenas na memória do host, sem gravá-los no disco.  
+   - Ideal para dados temporários que não precisam ser persistidos após o término do container.  
+   - Útil para melhorar o desempenho ou evitar o armazenamento de dados sensíveis no disco.  
+
+**Principais diferenças:**  
+- Volumes gerenciados são independentes do host e geralmente preferidos para persistência a longo prazo.  
+- Bind mounts oferecem controle total sobre a localização dos dados, mas são mais propensos a problemas relacionados ao acesso ao sistema de arquivos do host.  
+- Tmpfs mounts são temporários e rápidos, mas não persistem dados após o ciclo de vida do container.  
+
+Os volumes são amplamente utilizados para aplicações como bancos de dados, compartilhamento de arquivos entre containers e persistência de logs.
 
 ---
 
